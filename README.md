@@ -1,6 +1,6 @@
-# Awesome Image Harmonization  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Few-shot Image Generation  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of resources including papers, datasets, and relevant links pertaining to image harmonization.
+A curated list of resources including papers, datasets, and relevant links pertaining to few-shot image generation.
 
 ## Contributing
 
@@ -14,23 +14,26 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 
 ## Papers
 
-#### Supervised deep learning methods
-+ Wenyan Cong, Jianfu Zhang, Li Niu, Liu Liu, Zhixin Ling, Weiyuan Li, Liqing Zhang: "*DoveNet: Deep Image Harmonization via Domain Verification.*" CVPR (2020) [[pdf]](https://arxiv.org/pdf/1911.13239.pdf) [[code]](https://github.com/bcmi/Image_Harmonization_Datasets/tree/master/DoveNet).
-+ Xiaodong Cun, Chi-Man Pun: "*Improving the Harmony of the Composite Image by Spatial-Separated Attention Module.*" IEEE Trans. Image Process. 29: 4759-4771 (2020) [[pdf]](https://arxiv.org/pdf/1907.06406.pdf) [[code]](https://github.com/vinthony/s2am)
-+ Yi-Hsuan Tsai, Xiaohui Shen, Zhe Lin, Kalyan Sunkavalli, Xin Lu, Ming-Hsuan Yang: "*Deep Image Harmonization.*" CVPR (2017) [[pdf]](https://arxiv.org/pdf/1703.00069.pdf) [[code]](https://github.com/wasidennis/DeepHarmonization)
+#### Optimization-based methods
++ Louis Clouâtre, Marc Demers: "*FIGR: Few-shot Image Generation with Reptile.*" CoRR abs/1901.02199 (2019) [[pdf]](https://arxiv.org/pdf/1901.02199.pdf) [[code]](https://arxiv.org/pdf/1901.02199.pdf)
++ Weixin Liang, Zixuan Liu, Can Liu: "*DAWSON: A Domain Adaptive Few Shot Generation Framework.*" CoRR abs/2001.00576 (2020) [[pdf]](https://arxiv.org/pdf/2001.00576.pdf) [[code]](https://github.com/LC1905/musegan/)
 
-#### Unsupervised deep learning methods
-+ Bor-Chun Chen, Andrew Kae: "*Toward Realistic Image Compositing With Adversarial Learning.*" CVPR (2019) [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Toward_Realistic_Image_Compositing_With_Adversarial_Learning_CVPR_2019_paper.pdf)
+#### Fusion-based methods
++ Yan Hong, Li Niu, Jianfu Zhang, Liqing Zhang: "*MatchingGAN: Matching-based Few-shot Image Generation.*" ICME (2020) [[pdf]](https://arxiv.org/pdf/2003.03497.pdf)
 
-#### Traditional methods
-+ Jun-Yan Zhu, Philipp Krähenbühl, Eli Shechtman, Alexei A. Efros:  "Learning a Discriminative Model for the Perception of Realism in Composite Images." ICCV (2015) [[pdf]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Learning_a_Discriminative_ICCV_2015_paper.pdf) [[code]](https://github.com/junyanz/RealismCNN)
-+ Su Xue, Aseem Agarwala, Julie Dorsey, Holly E. Rushmeier:
-"*Understanding and improving the realism of image composites.*" ACM Trans. Graph. 31(4): 84:1-84:10 (2012) [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.365.5306&rep=rep1&type=pdf)
-+ Jean-François Lalonde, Alexei A. Efros: "*Using Color Compatibility for Assessing Image Realism.*" ICCV (2007) [[pdf]](https://ieeexplore.ieee.org/document/4409107) [[code]](https://github.com/jflalonde/colorRealism)
++ Sergey Bartunov, Dmitry P. Vetrov: "*Few-shot Generative Modelling with Generative Matching Networks.*" AISTATS (2018) [[pdf]](http://proceedings.mlr.press/v84/bartunov18a/bartunov18a.pdf) [[code]](https://github.com/sbos/gmn)
+
+#### Translation-based methods
++ Antreas Antoniou, Amos J. Storkey, Harrison Edwards: "*Data Augmentation Generative Adversarial Networks.*" CoRR abs/1711.04340 (2017) [[pdf]](https://arxiv.org/pdf/1711.04340.pdf) [[code]](https://github.com/AntreasAntoniou/DAGAN) 
+
 
 ## Datasets
-+ **iHarmony4:**  It contains four subdatasets: HCOCO, HAdobe5k,	HFlickr, Hday2night, with a total of 73,146 pairs of unharmonized images and harmonized images. [[link]](https://github.com/bcmi/Image_Harmonization_Datasets)
-
++ **Omniglot:**  XXX images from XXX character categories [link]
++ **EMNIST:**  [link]
++ **FIGR:**  [link]
++ **VGG-Faces:**  [link]
++ **Flowers:**  [link]
++ **Animal Faces:**  [link]
 
 ## Other resources
 
