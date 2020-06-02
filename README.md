@@ -28,12 +28,12 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 
 
 ## Datasets
-+ **Omniglot:**  XXX images from XXX character categories [link]
-+ **EMNIST:**  [link]
-+ **FIGR:**  [link]
-+ **VGG-Faces:**  [link]
-+ **Flowers:**  [link]
-+ **Animal Faces:**  [link]
++ **Omniglot:**  It contains 1623 different handwritten characters from 50 different alphabets. Each of the 1623 characters was drawn online via Amazon's Mechanical Turk by 20 different people [link](https://github.com/brendenlake/omniglot/)
++ **EMNIST:**  It contains 47 balanced classes[link](https://www.nist.gov/itl/products-and-services/emnist-dataset)
++ **FIGR:** It contains 17,375 classes of 1,548,256 images representing pictograms, ideograms, icons, emoticons or object or conception depictions [link](https://github.com/marcdemers/FIGR-8)
++ **VGG-Faces:**  It contains 2395 categories  [link](https://drive.google.com/drive/folders/15x2C11OrNeKLMzBDHrv8NPOwyre6H3O5)(https://drive.google.com/drive/folders/15x2C11OrNeKLMzBDHrv8NPOwyre6H3O5)
++ **Flowers:**  It contains 8189 images from 102 classes[link](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
++ **Animal Faces:** It contains 117574 images from 149 classes [link](https://github.com/NVlabs/FUNIT)
 
 ## Other resources
 
