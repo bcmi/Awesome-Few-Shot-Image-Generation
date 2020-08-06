@@ -19,11 +19,13 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 + Weixin Liang, Zixuan Liu, Can Liu: "*DAWSON: A Domain Adaptive Few Shot Generation Framework.*" CoRR abs/2001.00576 (2020) [[pdf]](https://arxiv.org/pdf/2001.00576.pdf) [[code]](https://github.com/LC1905/musegan/)
 
 #### Fusion-based methods
++ Yan Hong, Li Niu, Jianfu Zhang, Weijie Zhao, Chen Fu, Liqing Zhang: "*F2GAN: Fusing-and-Filling GAN for Few-shot Image Generation.*" ACM MM (2020) [[pdf]](https://arxiv.org/pdf/2008.01999.pdf)
+
 + Yan Hong, Li Niu, Jianfu Zhang, Liqing Zhang: "*MatchingGAN: Matching-based Few-shot Image Generation.*" ICME (2020) [[pdf]](https://arxiv.org/pdf/2003.03497.pdf)
 
 + Sergey Bartunov, Dmitry P. Vetrov: "*Few-shot Generative Modelling with Generative Matching Networks.*" AISTATS (2018) [[pdf]](http://proceedings.mlr.press/v84/bartunov18a/bartunov18a.pdf) [[code]](https://github.com/sbos/gmn)
 
-#### Translation-based methods
+#### Transformation-based methods
 + Antreas Antoniou, Amos J. Storkey, Harrison Edwards: "*Data Augmentation Generative Adversarial Networks.*" CoRR abs/1711.04340 (2017) [[pdf]](https://arxiv.org/pdf/1711.04340.pdf) [[code]](https://github.com/AntreasAntoniou/DAGAN) 
 
 
