@@ -9,6 +9,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 ## Table of Contents
 + [Papers](#Papers)
 + [Datasets](#Datasets)
++ [Notice](#Notice)
 
 
 ## Papers
@@ -27,7 +28,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 #### Transformation-based methods
 + Antreas Antoniou, Amos J. Storkey, Harrison Edwards: "*Data Augmentation Generative Adversarial Networks.*" stat (2018) [[pdf]](https://arxiv.org/pdf/1711.04340.pdf) [[code]](https://github.com/AntreasAntoniou/DAGAN) 
 
-+ Yan Hong, Li Niu, Jianfu Zhang, Jing Liang, Liqing Zhang: "*DeltaGAN: Towards Diverse Few-shot Image Generation with Sample-Specific Delta.*", CoRR abs/2009.08753 (2020) [[pdf]](https://arxiv.org/pdf/2009.08753.pdf)
++ Yan Hong, Li Niu, Jianfu Zhang, Jing Liang, Liqing Zhang: "*DeltaGAN: Towards Diverse Few-shot Image Generation with Sample-Specific Delta.*" CoRR abs/2009.08753 (2020) [[pdf]](https://arxiv.org/pdf/2009.08753.pdf)
 
 ## Datasets
 + **Omniglot:**  1623 handwritten characters from 50 different alphabets. Each of the 1623 characters was drawn online via Amazon's Mechanical Turk by 20 different people [[link]](https://github.com/brendenlake/omniglot/)
@@ -37,7 +38,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 + **Flowers:**  8189 images from 102 flower classes [[link]](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
 + **Animal Faces:** 117574 images from 149 animal classes [[link]](https://github.com/NVlabs/FUNIT)
 
----
+## Notice
 Due to the ambiguity of the terminology "few-shot image generation", there are also some works on few-shot image generation across different domains. For example, there are a large number of images in the source domain (*e.g.*, real face) but only a few images in the target domain (*e.g.*, cartoon face). The task is to generate more diverse images for the target domain.
 
 + Atsuhiro Noguchi, Tatsuya Harada: "*Image generation from small datasets via batch statistics adaptation.*" ICCV (2019). [[pdf]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Noguchi_Image_Generation_From_Small_Datasets_via_Batch_Statistics_Adaptation_ICCV_2019_paper.pdf) [[code]](http://github.com/nogu-atsu/small-dataset-image-generation)
