@@ -2,15 +2,6 @@
 
 A curated list of resources including papers, datasets, and relevant links pertaining to few-shot image generation.
 
-## Contributing
-
-Contributions are welcome.  If you wish to contribute, feel free to send a pull request. If you have suggestions for new sections to be included, please raise an issue and discuss before sending a pull request.
-
-## Table of Contents
-+ [From Base Categories to Novel Categories](#From Base Categories to Novel Categories)
-+ [Datasets](#Datasets)
-+ [Notice](#Notice)
-
 
 ## From Base Categories to Novel Categories
 
@@ -19,6 +10,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 + Weixin Liang, Zixuan Liu, Can Liu: "*DAWSON: A Domain Adaptive Few Shot Generation Framework.*" CoRR abs/2001.00576 (2020) [[pdf]](https://arxiv.org/pdf/2001.00576.pdf) [[code]](https://github.com/LC1905/musegan/)
 
 **Fusion-based methods:**
++ Davis Wertheimer, Omid Poursaeed, Bharath Hariharan: "*Augmentation-interpolative Autoencoders for Unsupervised Few-shot Image Generation.*" arXiv (2020). [[pdf]](https://arxiv.org/pdf/2011.13026.pdf)
 + Yan Hong, Li Niu, Jianfu Zhang, Weijie Zhao, Chen Fu, Liqing Zhang: "*F2GAN: Fusing-and-Filling GAN for Few-shot Image Generation.*" ACM MM (2020) [[pdf]](https://arxiv.org/pdf/2008.01999.pdf) [[code]](https://github.com/bcmi/F2GAN-Few-Shot-Image-Generation)
 + Yan Hong, Li Niu, Jianfu Zhang, Liqing Zhang: "*MatchingGAN: Matching-based Few-shot Image Generation.*" ICME (2020) [[pdf]](https://arxiv.org/pdf/2003.03497.pdf) [[code]](https://github.com/bcmi/MatchingGAN-Few-Shot-Image-Generation)
 + Sergey Bartunov, Dmitry P. Vetrov: "*Few-shot Generative Modelling with Generative Matching Networks.*" AISTATS (2018) [[pdf]](http://proceedings.mlr.press/v84/bartunov18a/bartunov18a.pdf) [[code]](https://github.com/sbos/gmn)
@@ -35,13 +27,15 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 + Flowers:  8189 images from 102 flower classes [[link]](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
 + Animal Faces: 117574 images from 149 animal classes [[link]](https://github.com/NVlabs/FUNIT)
 
-## Notice
-Due to the ambiguity of the terminology "few-shot image generation", there are also some works on few-shot image generation across different domains. For example, there are a large number of images in the source domain (*e.g.*, real face) but only a few images in the target domain (*e.g.*, cartoon face). The task is to generate more diverse images for the target domain.
+## From Large Dataset to Small Dataset
 
 + Atsuhiro Noguchi, Tatsuya Harada: "*Image generation from small datasets via batch statistics adaptation.*" ICCV (2019). [[pdf]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Noguchi_Image_Generation_From_Small_Datasets_via_Batch_Statistics_Adaptation_ICCV_2019_paper.pdf) [[code]](http://github.com/nogu-atsu/small-dataset-image-generation)
 + Yaxing Wang, Abel Gonzalez-Garcia, David Berga, Luis Herranz, Fahad Shahbaz Khan, Joost van de Weijer: "*MineGAN: effective knowledge transfer from GANs to target domains with few images.*" CVPR (2020). [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_MineGAN_Effective_Knowledge_Transfer_From_GANs_to_Target_Domains_With_CVPR_2020_paper.pdf) [[code]](https://github.com/yaxingwang/MineGAN)
 +  Yijun Li, Richard Zhang, Jingwan Lu, Eli Shechtman: "*Few-shot Image Generation with Elastic Weight Consolidation.*" NeurIPS (2020). [[pdf]](http://cn.arxiv.org/pdf/2012.02780) 
++ Esther Robb, Wen-Sheng Chu, Abhishek Kumar, Jia-Bin Huang: "*Few-Shot Adaptation of Generative Adversarial Networks.*" arXiv (2020). [[pdf]](https://arxiv.org/pdf/2010.11943.pdf) [[code]](https://github.com/e-271/few-shot-gan)
++ Miaoyun Zhao, Yulai Cong, Lawrence Carin: "*On Leveraging Pretrained GANs for Generation with Limited Data.*" ICML (2020). [[pdf]](http://proceedings.mlr.press/v119/zhao20a/zhao20a.pdf) [[code]](https://github.com/MiaoyunZhao/GANTransferLimitedData)
 
+## Only Small Dataset
 
-
++ Shengyu Zhao, Zhijian Liu, Ji Lin, Jun-Yan Zhu, Song Han: "*Differentiable Augmentation for Data-Efficient GAN Training.*" NeurIPS (2020). [[pdf]](https://arxiv.org/pdf/2006.10738.pdf) [[code]](https://github.com/mit-han-lab/data-efficient-gans)
 
