@@ -1,9 +1,10 @@
 # Awesome Few-Shot Image Generation  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of resources including papers, datasets, and relevant links pertaining to few-shot image generation.
+A curated list of resources including papers, datasets, and relevant links pertaining to few-shot image generation. Since few-shot image generation is a very broad concept, there are various experimental settings and research lines in the realm of few-shot image generation. 
 
 
 ## From Base Categories to Novel Categories
+The generative model is trained on base categories and applied to novel categories with (optimization-based) or without finetuning (fusion-based and transformation-based). 
 
 **Optimization-based methods:**
 + Louis Clouâtre, Marc Demers: "*FIGR: Few-shot Image Generation with Reptile.*" CoRR abs/1901.02199 (2019) [[pdf]](https://arxiv.org/pdf/1901.02199.pdf) [[code]](https://arxiv.org/pdf/1901.02199.pdf)
@@ -29,6 +30,8 @@ A curated list of resources including papers, datasets, and relevant links perta
 
 ## From Large Dataset to Small Dataset
 
+The generative model is trained on a large dataset (base domain/category) and finetuned on a small dataset (novel domain/category). 
+
 + Atsuhiro Noguchi, Tatsuya Harada: "*Image generation from small datasets via batch statistics adaptation.*" ICCV (2019). [[pdf]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Noguchi_Image_Generation_From_Small_Datasets_via_Batch_Statistics_Adaptation_ICCV_2019_paper.pdf) [[code]](http://github.com/nogu-atsu/small-dataset-image-generation)
 + Yaxing Wang, Abel Gonzalez-Garcia, David Berga, Luis Herranz, Fahad Shahbaz Khan, Joost van de Weijer: "*MineGAN: effective knowledge transfer from GANs to target domains with few images.*" CVPR (2020). [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_MineGAN_Effective_Knowledge_Transfer_From_GANs_to_Target_Domains_With_CVPR_2020_paper.pdf) [[code]](https://github.com/yaxingwang/MineGAN)
 +  Yijun Li, Richard Zhang, Jingwan Lu, Eli Shechtman: "*Few-shot Image Generation with Elastic Weight Consolidation.*" NeurIPS (2020). [[pdf]](ttps://arxiv.org/pdf/2012.02780.pdf) 
@@ -38,6 +41,13 @@ A curated list of resources including papers, datasets, and relevant links perta
 
 ## Only Small Dataset
 
+The generative model is directly trained on a small dataset. 
+
 + Shengyu Zhao, Zhijian Liu, Ji Lin, Jun-Yan Zhu, Song Han: "*Differentiable Augmentation for Data-Efficient GAN Training.*" NeurIPS (2020). [[pdf]](https://arxiv.org/pdf/2006.10738.pdf) [[code]](https://github.com/mit-han-lab/data-efficient-gans)
 + Bingchen Liu, Yizhe Zhu, Kunpeng Song, Ahmed Elgammal: "*Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis.*" ICLR (2021).               [[pdf]](https://arxiv.org/pdf/2101.04775v1.pdf) [[code]](https://github.com/odegeasslbc/FastGAN-pytorch)
+
+In the extreme case, the generative model is directly trained on a single image. However, the learnt model generally only manipulates the repeated patterns in this image. 
+
++ Tamar Rott Shaham, Tali Dekel, Tomer Michaeli: "*SinGAN: Learning a Generative Model from a Single Natural Image.*" ICCV (2019). [[pdf]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shaham_SinGAN_Learning_a_Generative_Model_From_a_Single_Natural_Image_ICCV_2019_paper.pdf) [[code]](https://github.com/tamarott/SinGAN)
++ Vadim Sushko, Jurgen Gall, Anna Khoreva: "*One-Shot GAN: Learning to Generate Samples from Single Images and Videos.*" CVPR workshop (2021). [[pdf]](https://openaccess.thecvf.com/content/CVPR2021W/LLID/papers/Sushko_One-Shot_GAN_Learning_To_Generate_Samples_From_Single_Images_and_CVPRW_2021_paper.pdf)
 
