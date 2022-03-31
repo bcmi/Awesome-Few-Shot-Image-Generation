@@ -30,14 +30,27 @@ The generative model is trained on base categories and applied to novel categori
 
 ## From Large Dataset to Small Dataset
 
-The generative model is trained on a large dataset (base domain/category) and finetuned on a small dataset (novel domain/category). 
+The generative model is trained on a large dataset (base domain/category) and transferred to a small dataset (novel domain/category). 
 
+**Finetuning methods:** Only finetune a part of the model parameters *or* train a few additional parameters.
 + Atsuhiro Noguchi, Tatsuya Harada: "*Image generation from small datasets via batch statistics adaptation.*" ICCV (2019). [[pdf]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Noguchi_Image_Generation_From_Small_Datasets_via_Batch_Statistics_Adaptation_ICCV_2019_paper.pdf) [[code]](http://github.com/nogu-atsu/small-dataset-image-generation)
-+ Yaxing Wang, Abel Gonzalez-Garcia, David Berga, Luis Herranz, Fahad Shahbaz Khan, Joost van de Weijer: "*MineGAN: effective knowledge transfer from GANs to target domains with few images.*" CVPR (2020). [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_MineGAN_Effective_Knowledge_Transfer_From_GANs_to_Target_Domains_With_CVPR_2020_paper.pdf) [[code]](https://github.com/yaxingwang/MineGAN)
-+  Yijun Li, Richard Zhang, Jingwan Lu, Eli Shechtman: "*Few-shot Image Generation with Elastic Weight Consolidation.*" NeurIPS (2020). [[pdf]](ttps://arxiv.org/pdf/2012.02780.pdf) 
++  Yijun Li, Richard Zhang, Jingwan Lu, Eli Shechtman: "*Few-shot Image Generation with Elastic Weight Consolidation.*" NeurIPS (2020). [[pdf]](https://arxiv.org/pdf/2012.02780.pdf) 
 + Esther Robb, Wen-Sheng Chu, Abhishek Kumar, Jia-Bin Huang: "*Few-Shot Adaptation of Generative Adversarial Networks.*" arXiv (2020). [[pdf]](https://arxiv.org/pdf/2010.11943.pdf) [[code]](https://github.com/e-271/few-shot-gan)
 + Miaoyun Zhao, Yulai Cong, Lawrence Carin: "*On Leveraging Pretrained GANs for Generation with Limited Data.*" ICML (2020). [[pdf]](http://proceedings.mlr.press/v119/zhao20a/zhao20a.pdf) [[code]](https://github.com/MiaoyunZhao/GANTransferLimitedData)
++ Yaxing Wang, Abel Gonzalez-Garcia, David Berga, Luis Herranz, Fahad Shahbaz Khan, Joost van de Weijer: "*MineGAN: effective knowledge transfer from GANs to target domains with few images.*" CVPR (2020). [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_MineGAN_Effective_Knowledge_Transfer_From_GANs_to_Target_Domains_With_CVPR_2020_paper.pdf) [[code]](https://github.com/yaxingwang/MineGAN)
+
+**Diversity-preserving methods:** Directly aim at preserving the diversity of the pretrained model on source domain(s). 
 + Utkarsh Ojha, Yijun Li, Jingwan Lu, Alexei A. Efros, Yong Jae Lee, Eli Shechtman, Richard Zhang: "*Few-shot Image Generation via Cross-domain Correspondence.*" CVPR (2021). [[pdf]](https://arxiv.org/pdf/2104.06820.pdf) [[code]](https://github.com/utkarshojha/few-shot-gan-adaptation)
++ Mengyu Dai, Haibin Hang, Xiaoyang Guo: "*Implicit Data Augmentation Using Feature Interpolation for Diversified Low-Shot Image Generation.*" arXiv (2021). [[pdf]](https://arxiv.org/pdf/2112.02450.pdf)
+
+**Datasets:** Sometimes a subset of a dataset is used as the target dataset.
++ ImageNet: Over 1.4M images of 1k categories. [[link]](https://www.image-net.org/index.php)
++ FFHQ (Flickr Faces HQ Dataset): 70k 1024\*1024 face images proposed by NVIDIA in StyleGAN papers. [[link]](https://github.com/NVlabs/ffhq-dataset)
++ Danbooru: Anime image dataset series. The latest version (2021) contains 4.9M images annotated with 162M tags. [[link]](https://www.gwern.net/Danbooru2021)
++ AFHQ (Animal Faces HQ Dataset): 15k 512\*512 animal images of three categories cat, dog and wildlife. [[link]](https://github.com/clovaai/stargan-v2/blob/master/README.md#animal-faces-hq-dataset-afhq)
++ Artistic-Faces Dataset: 160 artistic portraits of 16 artists. [[link]](https://faculty.idc.ac.il/arik/site/foa/artistic-faces-dataset.asp)
++ LSUN: 1M images for each of 10 scene categories and 20 object categories. [[link]](https://www.yf.io/p/lsun)
++ CelebA: 203k face images of 10k identities. [[link]](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
 ## Only Small Dataset
 
