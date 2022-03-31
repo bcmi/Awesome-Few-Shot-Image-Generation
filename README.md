@@ -41,7 +41,6 @@ The generative model is trained on a large dataset (base domain/category) and tr
 
 **Diversity-preserving methods:** Directly aim at preserving the diversity of the pretrained model on source domain(s). 
 + Utkarsh Ojha, Yijun Li, Jingwan Lu, Alexei A. Efros, Yong Jae Lee, Eli Shechtman, Richard Zhang: "*Few-shot Image Generation via Cross-domain Correspondence.*" CVPR (2021). [[pdf]](https://arxiv.org/pdf/2104.06820.pdf) [[code]](https://github.com/utkarshojha/few-shot-gan-adaptation)
-+ Mengyu Dai, Haibin Hang, Xiaoyang Guo: "*Implicit Data Augmentation Using Feature Interpolation for Diversified Low-Shot Image Generation.*" arXiv (2021). [[pdf]](https://arxiv.org/pdf/2112.02450.pdf)
 
 **Datasets:** Sometimes a subset of a dataset is used as the target dataset.
 + ImageNet: Over 1.4M images of 1k categories. [[link]](https://www.image-net.org/index.php)
@@ -58,6 +57,7 @@ The generative model is directly trained on a small dataset.
 
 + Shengyu Zhao, Zhijian Liu, Ji Lin, Jun-Yan Zhu, Song Han: "*Differentiable Augmentation for Data-Efficient GAN Training.*" NeurIPS (2020). [[pdf]](https://arxiv.org/pdf/2006.10738.pdf) [[code]](https://github.com/mit-han-lab/data-efficient-gans)
 + Bingchen Liu, Yizhe Zhu, Kunpeng Song, Ahmed Elgammal: "*Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis.*" ICLR (2021).               [[pdf]](https://arxiv.org/pdf/2101.04775v1.pdf) [[code]](https://github.com/odegeasslbc/FastGAN-pytorch)
++ Mengyu Dai, Haibin Hang, Xiaoyang Guo: "*Implicit Data Augmentation Using Feature Interpolation for Diversified Low-Shot Image Generation.*" arXiv (2021). [[pdf]](https://arxiv.org/pdf/2112.02450.pdf)
 
 In the extreme case, the generative model is directly trained on a single image. However, the learnt model generally only manipulates the repeated patterns in this image. 
 
