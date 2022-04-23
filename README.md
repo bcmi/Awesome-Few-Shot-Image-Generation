@@ -11,14 +11,16 @@ The generative model is trained on base categories and applied to novel categori
 + Weixin Liang, Zixuan Liu, Can Liu: "*DAWSON: A Domain Adaptive Few Shot Generation Framework.*" CoRR abs/2001.00576 (2020) [[pdf]](https://arxiv.org/pdf/2001.00576.pdf) [[code]](https://github.com/LC1905/musegan/)
 
 **Fusion-based methods:**
-+ Davis Wertheimer, Omid Poursaeed, Bharath Hariharan: "*Augmentation-interpolative Autoencoders for Unsupervised Few-shot Image Generation.*" arXiv (2020). [[pdf]](https://arxiv.org/pdf/2011.13026.pdf)
-+ Yan Hong, Li Niu, Jianfu Zhang, Weijie Zhao, Chen Fu, Liqing Zhang: "*F2GAN: Fusing-and-Filling GAN for Few-shot Image Generation.*" ACM MM (2020) [[pdf]](https://arxiv.org/pdf/2008.01999.pdf) [[code]](https://github.com/bcmi/F2GAN-Few-Shot-Image-Generation)
-+ Yan Hong, Li Niu, Jianfu Zhang, Liqing Zhang: "*MatchingGAN: Matching-based Few-shot Image Generation.*" ICME (2020) [[pdf]](https://arxiv.org/pdf/2003.03497.pdf) [[code]](https://github.com/bcmi/MatchingGAN-Few-Shot-Image-Generation)
 + Sergey Bartunov, Dmitry P. Vetrov: "*Few-shot Generative Modelling with Generative Matching Networks.*" AISTATS (2018) [[pdf]](http://proceedings.mlr.press/v84/bartunov18a/bartunov18a.pdf) [[code]](https://github.com/sbos/gmn)
++ Davis Wertheimer, Omid Poursaeed, Bharath Hariharan: "*Augmentation-interpolative Autoencoders for Unsupervised Few-shot Image Generation.*" arXiv (2020). [[pdf]](https://arxiv.org/pdf/2011.13026.pdf)
++ Yan Hong, Li Niu, Jianfu Zhang, Liqing Zhang: "*MatchingGAN: Matching-based Few-shot Image Generation.*" ICME (2020) [[pdf]](https://arxiv.org/pdf/2003.03497.pdf) [[code]](https://github.com/bcmi/MatchingGAN-Few-Shot-Image-Generation)
++ Yan Hong, Li Niu, Jianfu Zhang, Weijie Zhao, Chen Fu, Liqing Zhang: "*F2GAN: Fusing-and-Filling GAN for Few-shot Image Generation.*" ACM MM (2020) [[pdf]](https://arxiv.org/pdf/2008.01999.pdf) [[code]](https://github.com/bcmi/F2GAN-Few-Shot-Image-Generation)
++ Zheng Gu, Wenbin Li, Jing Huo, Lei Wang, Yang Gao: "*Lofgan: Fusing local representations for fewshot image generation.*" ICCV (2021) [[pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Gu_LoFGAN_Fusing_Local_Representations_for_Few-Shot_Image_Generation_ICCV_2021_paper.pdf) [[code]](https://github.com/edward3862/LoFGAN-pytorch)
 
 **Transformation-based methods:**
 + Antreas Antoniou, Amos J. Storkey, Harrison Edwards: "*Data Augmentation Generative Adversarial Networks.*" stat (2018) [[pdf]](https://arxiv.org/pdf/1711.04340.pdf) [[code]](https://github.com/AntreasAntoniou/DAGAN) 
 + Yan Hong, Li Niu, Jianfu Zhang, Jing Liang, Liqing Zhang: "*DeltaGAN: Towards Diverse Few-shot Image Generation with Sample-Specific Delta.*" CoRR abs/2009.08753 (2020) [[pdf]](https://arxiv.org/pdf/2009.08753.pdf)
++  Guanqi Ding, Xinzhe Han, Shuhui Wang, Shuzhe Wu, Xin Jin, Dandan Tu, Qingming Huang: "*Attribute Group Editing for Reliable Few-shot Image Generation.*" CVPR (2022) [[pdf]](https://arxiv.org/pdf/2203.08422.pdf) [[code]](https://github.com/UniBester/AGE)
 
 **Datasets:**
 + Omniglot:  1623 handwritten characters from 50 different alphabets. Each of the 1623 characters was drawn online via Amazon's Mechanical Turk by 20 different people [[link]](https://github.com/brendenlake/omniglot/)
@@ -32,15 +34,16 @@ The generative model is trained on base categories and applied to novel categori
 
 The generative model is trained on a large dataset (base domain/category) and transferred to a small dataset (novel domain/category). 
 
-**Finetuning methods:** Only finetune a part of the model parameters *or* train a few additional parameters.
-+ Atsuhiro Noguchi, Tatsuya Harada: "*Image generation from small datasets via batch statistics adaptation.*" ICCV (2019). [[pdf]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Noguchi_Image_Generation_From_Small_Datasets_via_Batch_Statistics_Adaptation_ICCV_2019_paper.pdf) [[code]](http://github.com/nogu-atsu/small-dataset-image-generation)
-+  Yijun Li, Richard Zhang, Jingwan Lu, Eli Shechtman: "*Few-shot Image Generation with Elastic Weight Consolidation.*" NeurIPS (2020). [[pdf]](https://arxiv.org/pdf/2012.02780.pdf) 
-+ Esther Robb, Wen-Sheng Chu, Abhishek Kumar, Jia-Bin Huang: "*Few-Shot Adaptation of Generative Adversarial Networks.*" arXiv (2020). [[pdf]](https://arxiv.org/pdf/2010.11943.pdf) [[code]](https://github.com/e-271/few-shot-gan)
-+ Miaoyun Zhao, Yulai Cong, Lawrence Carin: "*On Leveraging Pretrained GANs for Generation with Limited Data.*" ICML (2020). [[pdf]](http://proceedings.mlr.press/v119/zhao20a/zhao20a.pdf) [[code]](https://github.com/MiaoyunZhao/GANTransferLimitedData)
-+ Yaxing Wang, Abel Gonzalez-Garcia, David Berga, Luis Herranz, Fahad Shahbaz Khan, Joost van de Weijer: "*MineGAN: effective knowledge transfer from GANs to target domains with few images.*" CVPR (2020). [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_MineGAN_Effective_Knowledge_Transfer_From_GANs_to_Target_Domains_With_CVPR_2020_paper.pdf) [[code]](https://github.com/yaxingwang/MineGAN)
+**Finetuning-based methods:** Only finetune a part of the model parameters *or* train a few additional parameters.
++ Atsuhiro Noguchi, Tatsuya Harada: "*Image generation from small datasets via batch statistics adaptation.*" ICCV (2019) [[pdf]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Noguchi_Image_Generation_From_Small_Datasets_via_Batch_Statistics_Adaptation_ICCV_2019_paper.pdf) [[code]](http://github.com/nogu-atsu/small-dataset-image-generation)
++  Yijun Li, Richard Zhang, Jingwan Lu, Eli Shechtman: "*Few-shot Image Generation with Elastic Weight Consolidation.*" NeurIPS (2020) [[pdf]](https://arxiv.org/pdf/2012.02780.pdf) 
++ Esther Robb, Wen-Sheng Chu, Abhishek Kumar, Jia-Bin Huang: "*Few-Shot Adaptation of Generative Adversarial Networks.*" arXiv (2020) [[pdf]](https://arxiv.org/pdf/2010.11943.pdf) [[code]](https://github.com/e-271/few-shot-gan)
++ Miaoyun Zhao, Yulai Cong, Lawrence Carin: "*On Leveraging Pretrained GANs for Generation with Limited Data.*" ICML (2020) [[pdf]](http://proceedings.mlr.press/v119/zhao20a/zhao20a.pdf) [[code]](https://github.com/MiaoyunZhao/GANTransferLimitedData)
++ Yaxing Wang, Abel Gonzalez-Garcia, David Berga, Luis Herranz, Fahad Shahbaz Khan, Joost van de Weijer: "*MineGAN: effective knowledge transfer from GANs to target domains with few images.*" CVPR (2020) [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_MineGAN_Effective_Knowledge_Transfer_From_GANs_to_Target_Domains_With_CVPR_2020_paper.pdf) [[code]](https://github.com/yaxingwang/MineGAN)
 
-**Diversity-preserving methods:** Directly aim at preserving the diversity of the pretrained model on source domain(s). 
-+ Utkarsh Ojha, Yijun Li, Jingwan Lu, Alexei A. Efros, Yong Jae Lee, Eli Shechtman, Richard Zhang: "*Few-shot Image Generation via Cross-domain Correspondence.*" CVPR (2021). [[pdf]](https://arxiv.org/pdf/2104.06820.pdf) [[code]](https://github.com/utkarshojha/few-shot-gan-adaptation)
+**Regularization-based methods:** Regularize the generated target images based on the prior regularization knowledge from source domain. 
++ Utkarsh Ojha, Yijun Li, Jingwan Lu, Alexei A. Efros, Yong Jae Lee, Eli Shechtman, Richard Zhang: "*Few-shot Image Generation via Cross-domain Correspondence.*" CVPR (2021) [[pdf]](https://arxiv.org/pdf/2104.06820.pdf) [[code]](https://github.com/utkarshojha/few-shot-gan-adaptation)
++ Jiayu Xiao, Liang Li, Chaofei Wang, Zheng-Jun Zha, Qingming Huang: "*Few Shot Generative Model Adaption via Relaxed Spatial Structural Alignment.*" CVPR (2022) [[pdf]](https://arxiv.org/pdf/2203.04121.pdf) [[code]](https://github.com/StevenShaw1999/RSSA)
 
 **Datasets:** Sometimes a subset of a dataset is used as the target dataset.
 + ImageNet: Over 1.4M images of 1k categories. [[link]](https://www.image-net.org/index.php)
