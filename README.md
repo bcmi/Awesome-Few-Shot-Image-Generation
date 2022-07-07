@@ -19,8 +19,9 @@ The generative model is trained on base categories and applied to novel categori
 
 **Transformation-based methods:**
 + Antreas Antoniou, Amos J. Storkey, Harrison Edwards: "*Data Augmentation Generative Adversarial Networks.*" stat (2018) [[pdf]](https://arxiv.org/pdf/1711.04340.pdf) [[code]](https://github.com/AntreasAntoniou/DAGAN) 
-+ Yan Hong, Li Niu, Jianfu Zhang, Jing Liang, Liqing Zhang: "*DeltaGAN: Towards Diverse Few-shot Image Generation with Sample-Specific Delta.*" CoRR abs/2009.08753 (2020) [[pdf]](https://arxiv.org/pdf/2009.08753.pdf)
 +  Guanqi Ding, Xinzhe Han, Shuhui Wang, Shuzhe Wu, Xin Jin, Dandan Tu, Qingming Huang: "*Attribute Group Editing for Reliable Few-shot Image Generation.*" CVPR (2022) [[pdf]](https://arxiv.org/pdf/2203.08422.pdf) [[code]](https://github.com/UniBester/AGE)
++ Yan Hong, Li Niu, Jianfu Zhang, Liqing Zhang: "*Few-shot Image Generation Using Discrete Content Representation.*" ACM MM (2022)
++ Yan Hong, Li Niu, Jianfu Zhang, Liqing Zhang: "*DeltaGAN: Towards Diverse Few-shot Image Generation with Sample-Specific Delta.*" ECCV (2022) [[pdf]](https://arxiv.org/pdf/2009.08753.pdf)
 
 **Datasets:**
 + Omniglot:  1623 handwritten characters from 50 different alphabets. Each of the 1623 characters was drawn online via Amazon's Mechanical Turk by 20 different people [[link]](https://github.com/brendenlake/omniglot/)
