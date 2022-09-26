@@ -37,14 +37,15 @@ The generative model is trained on a large dataset (base domain/category) and tr
 
 **Finetuning-based methods:** Only finetune a part of the model parameters *or* train a few additional parameters.
 + Atsuhiro Noguchi, Tatsuya Harada: "*Image generation from small datasets via batch statistics adaptation.*" ICCV (2019) [[pdf]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Noguchi_Image_Generation_From_Small_Datasets_via_Batch_Statistics_Adaptation_ICCV_2019_paper.pdf) [[code]](http://github.com/nogu-atsu/small-dataset-image-generation)
-+  Yijun Li, Richard Zhang, Jingwan Lu, Eli Shechtman: "*Few-shot Image Generation with Elastic Weight Consolidation.*" NeurIPS (2020) [[pdf]](https://arxiv.org/pdf/2012.02780.pdf) 
 + Esther Robb, Wen-Sheng Chu, Abhishek Kumar, Jia-Bin Huang: "*Few-Shot Adaptation of Generative Adversarial Networks.*" arXiv (2020) [[pdf]](https://arxiv.org/pdf/2010.11943.pdf) [[code]](https://github.com/e-271/few-shot-gan)
 + Miaoyun Zhao, Yulai Cong, Lawrence Carin: "*On Leveraging Pretrained GANs for Generation with Limited Data.*" ICML (2020) [[pdf]](http://proceedings.mlr.press/v119/zhao20a/zhao20a.pdf) [[code]](https://github.com/MiaoyunZhao/GANTransferLimitedData)
 + Yaxing Wang, Abel Gonzalez-Garcia, David Berga, Luis Herranz, Fahad Shahbaz Khan, Joost van de Weijer: "*MineGAN: effective knowledge transfer from GANs to target domains with few images.*" CVPR (2020) [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_MineGAN_Effective_Knowledge_Transfer_From_GANs_to_Target_Domains_With_CVPR_2020_paper.pdf) [[code]](https://github.com/yaxingwang/MineGAN)
 
-**Regularization-based methods:** Regularize the generated target images based on the prior regularization knowledge from source domain. 
+**Regularization-based methods:** Regularize the transfer process based on the prior regularization knowledge, usually by imposing penalty on parameter/feature changes.
++  Yijun Li, Richard Zhang, Jingwan Lu, Eli Shechtman: "*Few-shot Image Generation with Elastic Weight Consolidation.*" NeurIPS (2020) [[pdf]](https://arxiv.org/pdf/2012.02780.pdf) 
 + Utkarsh Ojha, Yijun Li, Jingwan Lu, Alexei A. Efros, Yong Jae Lee, Eli Shechtman, Richard Zhang: "*Few-shot Image Generation via Cross-domain Correspondence.*" CVPR (2021) [[pdf]](https://arxiv.org/pdf/2104.06820.pdf) [[code]](https://github.com/utkarshojha/few-shot-gan-adaptation)
 + Jiayu Xiao, Liang Li, Chaofei Wang, Zheng-Jun Zha, Qingming Huang: "*Few Shot Generative Model Adaption via Relaxed Spatial Structural Alignment.*" CVPR (2022) [[pdf]](https://arxiv.org/pdf/2203.04121.pdf) [[code]](https://github.com/StevenShaw1999/RSSA)
++ Yunqing Zhao, Henghui Ding, Houjing Huang, Ngai-Man Cheung: "*A Closer Look at Few-shot Image Generation.*" CVPR (2022) [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_A_Closer_Look_at_Few-Shot_Image_Generation_CVPR_2022_paper.pdf) 
 
 **Datasets:** Sometimes a subset of a dataset is used as the target dataset.
 + ImageNet: Over 1.4M images of 1k categories. [[link]](https://www.image-net.org/index.php)
