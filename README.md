@@ -46,6 +46,9 @@ The generative model is trained on a large dataset (base domain/category) and tr
 + Utkarsh Ojha, Yijun Li, Jingwan Lu, Alexei A. Efros, Yong Jae Lee, Eli Shechtman, Richard Zhang: "*Few-shot Image Generation via Cross-domain Correspondence.*" CVPR (2021) [[pdf]](https://arxiv.org/pdf/2104.06820.pdf) [[code]](https://github.com/utkarshojha/few-shot-gan-adaptation)
 + Jiayu Xiao, Liang Li, Chaofei Wang, Zheng-Jun Zha, Qingming Huang: "*Few Shot Generative Model Adaption via Relaxed Spatial Structural Alignment.*" CVPR (2022) [[pdf]](https://arxiv.org/pdf/2203.04121.pdf) [[code]](https://github.com/StevenShaw1999/RSSA)
 + Yunqing Zhao, Henghui Ding, Houjing Huang, Ngai-Man Cheung: "*A Closer Look at Few-shot Image Generation.*" CVPR (2022) [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_A_Closer_Look_at_Few-Shot_Image_Generation_CVPR_2022_paper.pdf) 
++ Yunqing Zhao, Keshigeyan Chandrasegaran, Milad Abdollahzadeh, Ngai-Man Cheung: "*Few-shot Image Generation via Adaptation-Aware Kernel Modulation.*" NeurIPS (2022) [[pdf]](https://arxiv.org/pdf/2210.16559.pdf) [[code]](https://github.com/yunqing-me/AdAM)
++ Xingzhong Hou, Boxiao Liu, Shuai Zhang, Lulin Shi, Zite Jiang, Haihang You: "*Dynamic Weighted Semantic Correspondence for Few-Shot Image Generative Adaptation.*" ACM MM (2022) [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3503161.3548270)
++ JingYuan Zhu, Huimin Ma, Jiansheng Chen, Jian Yuan: "*Few-shot Image Generation via Masked Discrimination.*" arXiv (2022) [[pdf]](https://arxiv.org/pdf/2210.15194.pdf) 
 
 **Datasets:** Sometimes a subset of a dataset is used as the target dataset.
 + ImageNet: Over 1.4M images of 1k categories. [[link]](https://www.image-net.org/index.php)
