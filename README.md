@@ -65,7 +65,7 @@ The generative model is directly trained on a small dataset.
 
 + Shengyu Zhao, Zhijian Liu, Ji Lin, Jun-Yan Zhu, Song Han: "*Differentiable Augmentation for Data-Efficient GAN Training.*" NeurIPS (2020). [[pdf]](https://arxiv.org/pdf/2006.10738.pdf) [[code]](https://github.com/mit-han-lab/data-efficient-gans)
 + Bingchen Liu, Yizhe Zhu, Kunpeng Song, Ahmed Elgammal: "*Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis.*" ICLR (2021).               [[pdf]](https://arxiv.org/pdf/2101.04775v1.pdf) [[code]](https://github.com/odegeasslbc/FastGAN-pytorch)
-+ Mengyu Dai, Haibin Hang, Xiaoyang Guo: "*Implicit Data Augmentation Using Feature Interpolation for Diversified Low-Shot Image Generation.*" arXiv (2021). [[pdf]](https://arxiv.org/pdf/2112.02450.pdf)
++ Mengyu Dai, Haibin Hang, Xiaoyang Guo: "*Adaptive Feature Interpolation for Low-Shot Image Generation.*" ECCV (2022). [[pdf]](https://arxiv.org/pdf/2112.02450.pdf)
 
 In the extreme case, the generative model is directly trained on a single image. However, the learnt model generally only manipulates the repeated patterns in this image. 
 
