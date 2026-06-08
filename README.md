@@ -3,8 +3,8 @@
 A curated list of resources including papers, datasets, and relevant links pertaining to few-shot image generation. Since few-shot image generation is a very broad concept, there are various experimental settings and research lines in the realm of few-shot image generation. 
 
 
-## From Base Categories to Novel Categories
-The generative model is trained on base categories and applied to novel categories with (optimization-based) or without finetuning (fusion-based and transformation-based). 
+## From Multiple Source Domains to Target Domain
+The generative model is trained on base domains/categories and applied to novel domains/categories with (optimization-based) or without finetuning (fusion-based and transformation-based). 
 
 **Optimization-based methods:**
 + Louis Clouâtre, Marc Demers: "*FIGR: Few-shot Image Generation with Reptile.*" CoRR abs/1901.02199 (2019) [[pdf]](https://arxiv.org/pdf/1901.02199.pdf) [[code]](https://arxiv.org/pdf/1901.02199.pdf)
@@ -31,7 +31,7 @@ The generative model is trained on base categories and applied to novel categori
 + Flowers:  8189 images from 102 flower classes [[link]](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
 + Animal Faces: 117574 images from 149 animal classes [[link]](https://github.com/NVlabs/FUNIT)
 
-## From Large Dataset to Small Dataset
+## From One Source Domain to Target domain
 
 The generative model is trained on a large dataset (base domain/category) and transferred to a small dataset (novel domain/category). 
 
@@ -61,7 +61,7 @@ The generative model is trained on a large dataset (base domain/category) and tr
 + LSUN: 1M images for each of 10 scene categories and 20 object categories. [[link]](https://www.yf.io/p/lsun)
 + CelebA: 203k face images of 10k identities. [[link]](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
-## Only Small Dataset
+## Only Target Domain
 
 The generative model is directly trained on a small dataset. 
 
